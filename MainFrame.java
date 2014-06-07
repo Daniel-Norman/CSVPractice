@@ -497,9 +497,4 @@ public class MainFrame extends JFrame {
 			}
 		}
 	}
-	public void setMode(boolean edit)
-	{
-		saveEditButton.setEnabled(edit);
-		addRecordButton.setText(edit ? "Cancel Edit" : "Add Record");
-	}
 }
